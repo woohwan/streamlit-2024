@@ -7,6 +7,9 @@ fitcloud_url = "https://aws-dev.fitcloud.co.kr"
 st.session_state.fitcloud_url = "https://aws-dev.fitcloud.co.kr"
 st.session_state.session_id = ""
 
+# saltware code
+st.session_state.corpId = "KDjAqAG0TnEAAAFK5eqDUL0A"
+
 st.set_page_config(initial_sidebar_state="collapsed")
 st.markdown(
     """
