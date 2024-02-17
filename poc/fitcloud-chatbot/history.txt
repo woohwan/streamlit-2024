@@ -1,0 +1,7 @@
+● 24. 02. 17
+  - invoke_agent() 함수의 sessionAttributes에 accountId와 token을 전송하여 event sesstionAttributes 전송확인
+    sessionAttributes = event.get('sessionAttributes')
+    accountId = sessionAttributes.get('accountId')
+    token = sessionAttributes.get('token')
+  - OpenAPI Spec 갱신: only parameter 2개: start_month, end_month
+  - Agent에 갱신된 APISpec을 가진 action group ag05 추가 -> Create Alias를 new version 생성
