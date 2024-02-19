@@ -5,7 +5,8 @@ import requests
 fitcloud_url = "https://aws-dev.fitcloud.co.kr"
 
 st.session_state.fitcloud_url = "https://aws-dev.fitcloud.co.kr"
-st.session_state.session_id = ""
+
+st.session_state["accountId"] = "532805286864"         # 향후 API를 통해서 받아야 함.
 
 # saltware code
 st.session_state.corpId = "KDjAqAG0TnEAAAFK5eqDUL0A"
@@ -62,7 +63,8 @@ def main():
             # Add the rest of your Streamlit app code here after successful login
 
             # save session id
-            st.session_state.session_id = session_id
+            st.session_state["session_id"] = session_id
+            
             # Clear current content
             st.empty()
 

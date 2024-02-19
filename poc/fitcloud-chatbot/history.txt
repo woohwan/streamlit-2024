@@ -5,3 +5,6 @@
     token = sessionAttributes.get('token')
   - OpenAPI Spec 갱신: only parameter 2개: start_month, end_month
   - Agent에 갱신된 APISpec을 가진 action group ag05 추가 -> Create Alias를 new version 생성
+
+● 24. 02. 19
+  - session 문제로 인하여 streamlit only 대신 fastapi나 flask 사용 해야 됨.
